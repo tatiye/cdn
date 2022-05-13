@@ -1,0 +1,394 @@
+.btn-orange {
+    color: #fff;
+    background-color: #F15817;
+    border-color: #F15817
+}
+
+.btn-orange:hover {
+    color: #fff;
+    background-color: #F15817;
+    border-color: #F15817;
+    box-shadow: 0 1px 10px rgba(80, 161, 255, 0.4)
+}
+
+.btn-orange:focus,
+.btn-orange.focus {
+    color: #fff;
+    box-shadow: 0 0 0 0rem rgba(80, 161, 255, 0.5)
+}
+
+.btn-orange.disabled,
+.btn-orange:disabled {
+    background-color: #F15817;
+    border-color: #F15817
+}
+
+.btn-orange:not([disabled]):not(.disabled):active,
+.btn-orange:not([disabled]):not(.disabled).active,
+.show>.btn-orange.dropdown-toggle {
+    color: #fff;
+    background-color: #F15817;
+    border-color: #F15817;
+    box-shadow: 0 0 0 0rem rgba(80, 161, 255, 0.5)
+}
+
+.border-orange {
+    border-color: #F15817 !important
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.text-orange {
+    color: #F15817 !important
+}
+
+a.text-orange:hover,
+a.text-orange:focus {
+    color: #F15817 !important
+}
+
+.social-lg-circle a {
+    width: 38px;
+    height: 38px;
+    line-height: 36px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    font-size: 1.25rem
+    padding: 0;
+    border-radius: 10rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem
+}
+
+ /*
+|--------------------------------------------------------------------------
+| Initializes CODE PRE
+|--------------------------------------------------------------------------
+| Develover Tatiye.Net 2018
+| @Dat Kam 23 Apr 2020 12:25:46  WITA
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+  background: none;
+
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.2;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: .0em 0;
+  overflow: auto;
+  border-radius: 0.0em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+/*  background:  #FFF;*/
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: slategray;
+}
+
+.token.punctuation {
+  color: #24292e;
+}
+
+.namespace {
+  opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+  color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  color: #0782b1;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+  color: #24292e;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function {
+  color: #690;
+}
+
+.token.keyword {
+  color: #ea3b0f;
+}
+
+.token.regex,
+.token.important {
+  color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+.token.italic {
+  font-style: italic;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+pre.line-numbers {
+  float: left;
+  position: absolute;
+  padding-left: 3.8em;
+  counter-reset: linenumber;
+}
+
+pre.line-numbers > code {
+position: absolute;
+  float: left;
+}
+
+.line-numbers .line-numbers-rows {
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  font-size: 100%;
+  left: -3.8em;
+  width: 3em; /* works for line-numbers below 1000 lines */
+  letter-spacing: -1px;
+  border-right: 1px solid #999;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+}
+
+  .line-numbers-rows > p {
+ 
+    position: absolute;
+    pointer-events: none;
+    display: block;
+    counter-increment: linenumber;
+  }
+
+    .line-numbers-rows > p:before {
+      content: counter(linenumber);
+      color: #999;
+      display: block;
+      padding-right: 0.8em;
+      text-align: right;
+    }
+pre.code-toolbar {
+  position: relative;
+}
+
+pre.code-toolbar > .toolbar {
+  position: absolute;
+  top: .3em;
+  right: .2em;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+}
+
+pre.code-toolbar:hover > .toolbar {
+  opacity: 1;
+}
+
+pre.code-toolbar > .toolbar .toolbar-item {
+  display: inline-block;
+}
+
+pre.code-toolbar > .toolbar a {
+  cursor: pointer;
+}
+
+pre.code-toolbar > .toolbar button {
+  background: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  -webkit-user-select: none; /* for button */
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+pre.code-toolbar > .toolbar a,
+pre.code-toolbar > .toolbar button,
+pre.code-toolbar > .toolbar span {
+  color: #required;
+  font-size: .8em;
+  padding: 0 .5em;
+  background: #f5f2f0;
+  background: rgba(224, 224, 224, 0.2);
+  box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
+  border-radius: .5em;
+}
+
+pre.code-toolbar > .toolbar a:hover,
+pre.code-toolbar > .toolbar a:focus,
+pre.code-toolbar > .toolbar button:hover,
+pre.code-toolbar > .toolbar button:focus,
+pre.code-toolbar > .toolbar span:hover,
+pre.code-toolbar > .toolbar span:focus {
+  color: inherit;
+  text-decoration: none;
+}
+/*
+|--------------------------------------------------------------------------
+| AND CODE PRE
+|--------------------------------------------------------------------------
+ */
+.tree-menu {
+  line-height: 1em;
+}
+
+.tree-menu,
+.tree-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.tree-menu > li {
+  margin-bottom: 0.5em;
+}
+
+.tree-menu ul {
+  position: relative;
+  margin-top: 0.5em;
+  margin-left: 1em;
+}
+.tree-menu ul:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  border-left: 1px solid currentColor;
+}
+
+.tree-menu ul li {
+  position: relative;
+  margin: 0;
+  padding: 0.5em 1em;
+}
+
+.tree-menu ul li:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 1em;
+  left: 0;
+  width: 0.5em;
+  height: 0;
+  border-top: 1px solid currentColor;
+}
+
+.tree-menu ul li:last-child:before {
+  top: 1em;
+  bottom: 0;
+  height: auto;
+  background-color: #fff;
+}
+/* Syntax highlighting for JSON objects */
+ul.json-dict, ol.json-array {
+  list-style-type: none;
+  margin: 0 0 0 1px;
+  border-left: 1px dotted #ccc;
+  padding-left: 2em;
+}
+.json-string {
+  color: #0B7500;
+}
+.json-literal {
+  color: #1A01CC;
+  font-weight: bold;
+}
+
+/* Toggle button */
+a.json-toggle {
+  position: relative;
+  color: inherit;
+  text-decoration: none;
+}
+a.json-toggle:focus {
+  outline: none;
+}
+a.json-toggle:before {
+  color: #aaa;
+  content: "\25BC"; /* down arrow */
+  position: absolute;
+  display: inline-block;
+  width: 1em;
+  left: -1em;
+}
+a.json-toggle.collapsed:before {
+  content: "\25B6"; /* left arrow */
+}
+
+/* Collapsable placeholder links */
+a.json-placeholder {
+  color: #aaa;
+  padding: 0 1em;
+  text-decoration: none;
+}
+a.json-placeholder:hover {
+  text-decoration: underline;
+}
